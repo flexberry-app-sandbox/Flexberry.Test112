@@ -1,0 +1,43 @@
+﻿{
+  "applicationCaption": "Test11",
+  "applicationTitle": "Test11",
+  "items": [
+    {
+      "link": null,
+      "menuName": "test11",
+      "caption": "Test11",
+      "title": "Test11",
+      "children": [
+        {
+          "link": "i-i-s-test11-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test11-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test11-товары-l",
+          "menuName": null,
+          "caption": "Товары",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test11-контрагент-l",
+          "menuName": null,
+          "caption": "Контрагент",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

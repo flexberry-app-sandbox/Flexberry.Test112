@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Test11.model.Zakaz</class>
+        <class>Test11.model.Sotrudnik</class>
+        <class>Test11.model.SostavZakaza</class>
+        <class>Test11.model.Tovary</class>
+        <class>Test11.model.Kontragent</class>
+        <class>Test11.model.FlexberryAdvLimit</class>
+        <class>Test11.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Test11.model.NewPlatformFlexberryServicesLock</class>
+        <class>Test11.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

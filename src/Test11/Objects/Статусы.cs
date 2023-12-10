@@ -12,6 +12,7 @@ namespace IIS.Test11
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,11 +32,13 @@ namespace IIS.Test11
         // *** Start programmer edit section *** (Статусы.Готов CustomAttributes)
 
         // *** End programmer edit section *** (Статусы.Готов CustomAttributes)
+        [Caption("Готов")]
         Готов,
         
         // *** Start programmer edit section *** (Статусы.НаСборке CustomAttributes)
 
         // *** End programmer edit section *** (Статусы.НаСборке CustomAttributes)
+        [Caption("НаСборке")]
         НаСборке,
     }
 }

@@ -28,25 +28,24 @@ export default Controller.extend({
             link: 'i-i-s-test11-заказ-l',
             caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-заказ-l.caption'),
             title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-заказ-l.title'),
-            icon: 'tags',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-test11-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-сотрудник-l.title'),
-            icon: 'edit',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-test11-товары-l',
             caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-товары-l.caption'),
             title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-товары-l.title'),
-            icon: 'address card',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-test11-контрагент-l',
             caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-контрагент-l.caption'),
             title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-контрагент-l.title'),
-            icon: 'tasks',
             children: null
           }]
         }

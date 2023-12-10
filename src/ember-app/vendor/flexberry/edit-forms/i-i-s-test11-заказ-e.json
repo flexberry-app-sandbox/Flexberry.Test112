@@ -15,6 +15,14 @@
       "relationName": "Контрагент",
       "projection": "КонтрагентL",
       "detailModelName": null
+    },
+    {
+      "master": "товары",
+      "displayAttributeName": null,
+      "required": true,
+      "relationName": "СоставЗаказа.Товары",
+      "projection": "ТоварыL",
+      "detailModelName": "i-i-s-test11-состав-заказа"
     }
   ],
   "external": false,

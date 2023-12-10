@@ -44,11 +44,11 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('СоставЗаказаE', 'i-i-s-test11-состав-заказа', {
-    товары: belongsTo('i-i-s-test11-товары', 'Название', {
-      название: attr('Название', { index: 0 }),
-      ценаЗаЕд: attr('Цена', { index: 1 })
-    }, { index: -1, hidden: true }),
-    количество: attr('Количесвто', { index: 2 }),
-    стоимость: attr('Стоимость', { index: 3 })
+    товары: belongsTo('i-i-s-test11-товары', '', {
+      название: attr('', { index: 1 }),
+      ценаЗаЕд: attr('', { index: 2 })
+    }, { index: 0 }),
+    количество: attr('', { index: 3 }),
+    стоимость: attr('', { index: 4 })
   });
 };

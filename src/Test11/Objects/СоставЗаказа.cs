@@ -30,10 +30,11 @@ namespace IIS.Test11
     [Caption("Состав заказа")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СоставЗаказаE", new string[] {
-            "Товары.Название as \'Название\'",
-            "Товары.ЦенаЗаЕд as \'Цена\'",
-            "Количество as \'Количесвто\'",
-            "Стоимость as \'Стоимость\'"})]
+            "Товары",
+            "Товары.Название",
+            "Товары.ЦенаЗаЕд",
+            "Количество",
+            "Стоимость"})]
     public class СоставЗаказа : ICSSoft.STORMNET.DataObject
     {
         

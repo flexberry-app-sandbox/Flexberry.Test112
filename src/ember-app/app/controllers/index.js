@@ -16,30 +16,30 @@ export default Controller.extend({
         }, {
           link: null,
           icon: 'list',
-          caption: i18n.t('forms.application.sitemap.test11.caption'),
-          title: i18n.t('forms.application.sitemap.test11.title'),
+          caption: i18n.t('forms.application.sitemap.справочники.caption'),
+          title: i18n.t('forms.application.sitemap.справочники.title'),
           children: [{
             link: 'i-i-s-test11-заказ-l',
-            caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-заказ-l.caption'),
-            title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-заказ-l.title'),
-            icon: 'suitcase',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-test11-заказ-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-test11-заказ-l.title'),
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-test11-сотрудник-l',
-            caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-сотрудник-l.caption'),
-            title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-сотрудник-l.title'),
-            icon: 'folder open',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-test11-сотрудник-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-test11-сотрудник-l.title'),
             children: null
           }, {
             link: 'i-i-s-test11-товары-l',
-            caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-товары-l.caption'),
-            title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-товары-l.title'),
-            icon: 'archive',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-test11-товары-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-test11-товары-l.title'),
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-test11-контрагент-l',
-            caption: i18n.t('forms.application.sitemap.test11.i-i-s-test11-контрагент-l.caption'),
-            title: i18n.t('forms.application.sitemap.test11.i-i-s-test11-контрагент-l.title'),
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-test11-контрагент-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-test11-контрагент-l.title'),
+            icon: 'address card',
             children: null
           }]
         }

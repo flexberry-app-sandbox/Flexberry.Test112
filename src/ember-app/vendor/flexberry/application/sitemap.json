@@ -4,9 +4,9 @@
   "items": [
     {
       "link": null,
-      "menuName": "test11",
-      "caption": "Test11",
-      "title": "Test11",
+      "menuName": "справочники",
+      "caption": "Справочники",
+      "title": "Справочники",
       "children": [
         {
           "link": "i-i-s-test11-заказ-l",

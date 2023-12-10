@@ -49,15 +49,15 @@
       "attrs": [
         {
           "name": "количество",
-          "caption": "Количесвто",
+          "caption": "",
           "hidden": false,
-          "index": 2
+          "index": 3
         },
         {
           "name": "стоимость",
-          "caption": "Стоимость",
+          "caption": "",
           "hidden": false,
-          "index": 3
+          "index": 4
         }
       ],
       "belongsTo": [
@@ -70,20 +70,20 @@
           "attrs": [
             {
               "name": "название",
-              "caption": "Название",
+              "caption": "",
               "hidden": false,
-              "index": 0
+              "index": 1
             },
             {
               "name": "ценаЗаЕд",
-              "caption": "Цена",
+              "caption": "",
               "hidden": false,
-              "index": 1
+              "index": 2
             }
           ],
-          "index": -1,
+          "index": 0,
           "type": "default",
-          "caption": "Название",
+          "caption": "",
           "name": "товары",
           "relatedTo": "i-i-s-test11-товары",
           "inverse": null
